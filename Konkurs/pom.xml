@@ -1,0 +1,90 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.konkursi</groupId>
+	<artifactId>Konkurs</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-core</artifactId>
+			<version>3.18.3</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.camel/camel-main -->
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-main</artifactId>
+			<version>3.18.3</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.camel/camel-csv -->
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-csv</artifactId>
+			<version>3.18.3</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.camel/camel-netty-http -->
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-netty-http</artifactId>
+			<version>3.18.3</version>
+		</dependency>
+		<!-- Logging Jars -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.10</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>1.7.10</version>
+		</dependency>
+
+		<!-- DB Related Jars -->
+
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-jdbc</artifactId>
+			<version>3.18.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>9.4.1212</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-dbcp</groupId>
+			<artifactId>commons-dbcp</artifactId>
+			<version>1.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-pool</groupId>
+			<artifactId>commons-pool</artifactId>
+			<version>1.5.4</version>
+		</dependency>
+
+		<!-- Camel Sql Select -->
+
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-sql</artifactId>
+			<version>3.18.3</version>
+		</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.camel/camel-jackson -->
+<dependency>
+    <groupId>org.apache.camel</groupId>
+    <artifactId>camel-jackson</artifactId>
+    <version>3.18.3</version>
+</dependency>
+
+
+	</dependencies>
+
+</project>
